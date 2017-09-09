@@ -1,5 +1,9 @@
 /*red: #D43C33*/
+body {
+  font-size: 16px;
+}
 
+/*topbar样式*/
 section.topbar {
   display: flex;
   justify-content: space-between;
@@ -15,7 +19,6 @@ section.topbar .logo {
 section.topbar > a {
   color: white;
   display: inline-block;
-  font-size: 16px;
   padding: 5px 11px;
   line-height: 20px;
   position: relative;
@@ -33,7 +36,26 @@ section.topbar > a::after {
   transform-origin: 0 0;
 }
 
-section.tabs {}
+/*tab内容切换样式*/
+.tabs {
+  display: flex;
+}
+.tabs > li {
+  width: 33.3333%;
+  text-align: center; 
+}
+.tabs > li.active {
+  background: red;
+}
+.tab-content > li {
+  display: none;
+}
+.tab-content > li.active {
+  display: block;
+  background: red;
+}
+
+
 section.playLists {}
 section.songs {}
 section.art {}
