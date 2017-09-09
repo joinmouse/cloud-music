@@ -1,0 +1,22 @@
+{
+  "name": "cloud-music",
+  "version": "1.0.0",
+  "description": "网易云音乐-webapp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joinmouse/cloud-music.git"
+  },
+  "author": "wuqi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joinmouse/cloud-music/issues"
+  },
+  "homepage": "https://github.com/joinmouse/cloud-music#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
