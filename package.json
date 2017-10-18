@@ -1,5 +1,5 @@
 {
-  "name": "music.163.com",
+  "name": "cloud-music",
   "version": "1.0.0",
   "description": "网易云音乐移动端网页版",
   "main": "index.js",
@@ -18,17 +18,9 @@
     "jquery": true,
     "browser": true
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/guidetheorient/music.163.com.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/guidetheorient/music.163.com/issues"
-  },
-  "homepage": "https://github.com/guidetheorient/music.163.com#readme",
   "devDependencies": {
     "anywhere": "^1.4.0",
     "babel-core": "^6.26.0",
