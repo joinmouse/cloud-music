@@ -1,0 +1,25 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,ol,li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+html,body{
+  font: 20px/1.5 Helvetica,'sans-serif';
+  color:#333;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 400;
+}
+
+.icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
